@@ -10,7 +10,7 @@ router.post('/:email', function(req, res, next) {
   newLead.email = req.params.email.toLowerCase();
 
 	Lead.create(newLead, (err, lead) => {
-    res.send('Created new lead');
+    res.send('Created new lead: ' + JSON.stringify(lead));
 	});
 });
 
