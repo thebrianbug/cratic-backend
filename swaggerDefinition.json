@@ -1,0 +1,8 @@
+{
+  "info": {
+    "title": "Cratic Ai API",
+    "version": "1.0.0",
+    "description": "API for Cratic Ai"
+  },
+  "basePath": "/api"
+}
