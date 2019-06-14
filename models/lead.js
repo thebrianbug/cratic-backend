@@ -1,10 +1,8 @@
 var mongoose = require("mongoose");
-const bcrypt = require('bcryptjs')
 var Schema = mongoose.Schema;
 
 // Create the User schema
 var leadSchema = new Schema({
-
   email: {
     type: String,
     trim: true,
@@ -13,11 +11,11 @@ var leadSchema = new Schema({
   },
 
   joindate: {
-     type: Date,
-     default: Date.now
+    type: Date,
+    default: Date.now
   }
 });
 
-const Lead = mongoose.model('Leads', leadSchema);
+const Lead = mongoose.model("Leads", leadSchema);
 
 module.exports = Lead;
