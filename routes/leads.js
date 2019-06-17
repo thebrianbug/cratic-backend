@@ -4,15 +4,15 @@ const Lead = require("../models/lead.js");
 
 /**
  * @swagger
- * /leads:
+ * /leads/{email}:
  *    post:
  *      description: This saves the contact info for a lead
  *      produces:
  *        - application/json
  *      parameters:
  *        - name: email
- *          description: Email to register.
  *          in: path
+ *          description: Email to register.
  *          required: true
  *          type: string
  *      responses:
