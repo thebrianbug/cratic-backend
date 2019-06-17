@@ -32,13 +32,14 @@ const options = {
     },
     host: "localhost:3000",
     produces: ["application/json"],
-    basePath: "/api"
+    basePath: "/"
   },
   apis: ['./routes/*.js']
 };
 const swaggerSpec = swaggerJSDoc(options);
 
-app.use("/", swaggerUi.serve, swaggerUi.setup(swaggerSpec));
+app.use("/", indexRouter);
+app.use("/docs", swaggerUi.serve, swaggerUi.setup(swaggerSpec));
 app.use("/users", usersRouter);
 app.use("/leads", leadsRouter);
 
