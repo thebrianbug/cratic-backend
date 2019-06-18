@@ -5,8 +5,6 @@ const cookieParser = require("cookie-parser");
 const logger = require("morgan");
 const swaggerUi = require("swagger-ui-express");
 const swaggerJSDoc = require("swagger-jsdoc");
-const session = require("express-session");
-const MongoStore = require("connect-mongodb-session")(session);
 const mongoose = require("mongoose");
 const MONGODB_URI =
   process.env.MONGODB_URI || "mongodb://localhost:27017/sonar";
@@ -29,18 +27,6 @@ app.use(cookieParser());
 app.use(express.static(path.join(__dirname, "public")));
 
 // Mongo setup
-app.use(
-  session({
-    secret: "Secret",
-    store: new MongoStore({ uri: MONGODB_URI, collection: "sessions" }),
-    resave: true,
-    saveUninitialized: true,
-    cookie: {
-      maxAge: 3*60*60*1000 // In milliseconds
-    }
-  })
-);
-
 mongoose.connect(MONGODB_URI, { useNewUrlParser: true }, (err, db) => {
   if (err) {
     console.log("Unable to connect to the mongoDB server. Error:", err);
