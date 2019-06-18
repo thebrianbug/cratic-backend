@@ -4,16 +4,14 @@ const path = require("path");
 const cookieParser = require("cookie-parser");
 const logger = require("morgan");
 const swaggerUi = require("swagger-ui-express");
-const mongoose = require("mongoose");
-const MONGODB_URI =
-  process.env.MONGODB_URI || "mongodb://localhost:27017/sonar";
-mongoose.Promise = Promise;
 
 const indexRouter = require("./routes/index");
 const usersRouter = require("./routes/users");
 const leadsRouter = require("./routes/leads");
 
 var swaggerSpec = require("./config/swaggerSpec.js");
+
+require("./config/connectMongooseDb.js"); // Connect Mongoose
 
 const app = express();
 
@@ -26,27 +24,6 @@ app.use(express.json());
 app.use(express.urlencoded({ extended: false }));
 app.use(cookieParser());
 app.use(express.static(path.join(__dirname, "public")));
-
-// Mongo setup
-mongoose.connect(MONGODB_URI, { useNewUrlParser: true }, (err, db) => {
-  if (err) {
-    console.log("Unable to connect to the mongoDB server. Error:", err);
-  } else {
-    console.log("Connection established to", MONGODB_URI);
-  }
-});
-
-const db = mongoose.connection;
-
-// Show any mongoose errors
-db.on("error", error => {
-  console.log("Mongoose Error: ", error);
-});
-
-// Once logged in to the db through mongoose, log a success message
-db.once("open", () => {
-  console.log("Mongoose connection successful.");
-});
 
 // Route setup
 app.use("/", indexRouter);
