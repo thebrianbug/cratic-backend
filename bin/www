@@ -9,6 +9,12 @@ var debug = require('debug')('cratic-backend:server');
 var http = require('http');
 
 /**
+ * Connect Mongoose
+ */
+
+require("../config/connectMongooseDb.js");
+
+/**
  * Get port from environment and store in Express.
  */
 

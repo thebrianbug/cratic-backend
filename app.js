@@ -11,8 +11,6 @@ const leadsRouter = require("./routes/leads");
 
 var swaggerSpec = require("./config/swaggerSpec.js");
 
-require("./config/connectMongooseDb.js"); // Connect Mongoose
-
 const app = express();
 
 // view engine setup
