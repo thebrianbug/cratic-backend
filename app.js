@@ -13,7 +13,7 @@ const indexRouter = require("./routes/index");
 const usersRouter = require("./routes/users");
 const leadsRouter = require("./routes/leads");
 
-var swaggerSpec = require("./config/swaggerSpec.js/index.js")
+var swaggerSpec = require("./config/swaggerSpec.js");
 
 const app = express();
 
