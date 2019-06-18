@@ -1,4 +1,3 @@
-
 const swaggerJSDoc = require("swagger-jsdoc");
 
 // Swagger setup
