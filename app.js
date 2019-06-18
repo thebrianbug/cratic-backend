@@ -4,7 +4,6 @@ const path = require("path");
 const cookieParser = require("cookie-parser");
 const logger = require("morgan");
 const swaggerUi = require("swagger-ui-express");
-const swaggerJSDoc = require("swagger-jsdoc");
 const mongoose = require("mongoose");
 const MONGODB_URI =
   process.env.MONGODB_URI || "mongodb://localhost:27017/sonar";
@@ -13,6 +12,8 @@ mongoose.Promise = Promise;
 const indexRouter = require("./routes/index");
 const usersRouter = require("./routes/users");
 const leadsRouter = require("./routes/leads");
+
+var swaggerSpec = require("./swaggerSpec.js")
 
 const app = express();
 
@@ -47,23 +48,7 @@ db.once("open", () => {
   console.log("Mongoose connection successful.");
 });
 
-
-// Swagger setup
-const options = {
-  swaggerDefinition: {
-    info: {
-      title: "Cratic Ai API",
-      version: "1.0.0",
-      description: "API for Cratic Ai"
-    },
-    host: "localhost:3000",
-    produces: ["application/json"],
-    basePath: "/"
-  },
-  apis: ['./routes/*.js']
-};
-const swaggerSpec = swaggerJSDoc(options);
-
+// Route setup
 app.use("/", indexRouter);
 app.use("/docs", swaggerUi.serve, swaggerUi.setup(swaggerSpec));
 app.use("/users", usersRouter);
