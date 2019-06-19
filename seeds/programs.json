@@ -1,0 +1,44 @@
+[
+  {
+    "program_name": "Entrepreneurial",
+    "icon": "entrepreneur",
+    "description": "An entrepreneurial team is more open to new ideas and creative in problem solving. This program is designed to expand thinking.",
+    "synonyms": "Innovation, Creativity, Enthusiasm, Openness, Pushing Boundaries, Expansive Thinking, Ideation, Futurism",
+    "surveys" : [6, 7, 8, 9, 10]
+  },  
+  {
+    "program_name": "Happiness",
+    "icon": "happiness",
+    "description": "Make work fun! Create a team environment that is visibly enjoyable. High energy, positive outlooks, and upbeat communication are the goal!",
+    "synonyms": "Friendly, Supportive Feedback, Positive Outlook, Meaningful Conversation, Depth, Patience, Feedback, Hopeful Collaboration, Turning Negatives into Positives!",
+    "surveys" : [11, 12, 13, 14, 15]
+  },  
+  {
+    "program_name": "Harmony",
+    "icon": "harmony",
+    "description": "Creating an environment where everyone feels needed and necessary. Getting along and being helpful are very valuable skills.",
+    "synonyms": "Transitioning between Home and Work, Low Criticalness, Low Judgement, High Encouragement and Support, Accepting of Uniqueness, Affirmation, Patience & Consistency",
+    "surveys" : [16, 17, 18, 19, 20]
+  },  
+  {
+    "program_name": "Execution",
+    "icon": "execution",
+    "description": "Go, Go, Go! Create a team environment with productivity at the heart of everything. Quickly decide what matters, and how to get it done.",
+    "synonyms": "Planning and Preparation, Making Decisions, Decision-Support, Building Followership, Taking Ownership, Taking Risks, Moving Past Failure, Schedule and Task Management",
+    "surveys" : [21, 22, 23, 24, 25]
+  },   
+  {
+    "program_name": "Focus",
+    "icon": "focus",
+    "description": "Creating an environment that emphasizes best business practices and operating effectiveness.",
+    "synonyms": "Productivity, Task Management, Accountability, Time Management, Prioritization, Efficiency, Thoroughness, Expectation Management and Quality",
+    "surveys" : [26, 27, 28, 29, 30]
+  }, 
+  {
+    "program_name": "Safety",
+    "icon": "safety",
+    "description": "Creating an environment with fewer mistakes and less hazards. Caution, safety, and quality work are of highest value.",
+    "synonyms": "Awareness, Preparation, Knowledge of Best Practices, Decision-Making, Reaction vs. Response, Research, Collaboration and Quality Control",
+    "surveys" : [31, 32, 33, 34, 35]
+  }          
+]

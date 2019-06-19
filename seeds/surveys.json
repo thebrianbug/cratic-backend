@@ -1,0 +1,362 @@
+[
+  {
+    "survey_id": 0,
+    "program": "pilot",
+    "survey_name": "Ice Breaker",
+    "survey_category": "team_baseline",
+    "description": "These questions are meant to help the team learn the tool and get acquainted. Have fun with these!",
+    "active_members": [],
+    "completed_members" : [],
+    "question_ids" : [1, 2, 3, 4, 5]
+  },
+  {
+    "survey_id": 1,
+    "program": "pilot",
+    "survey_name": "Team Strategy",
+    "survey_category": "team_baseline",
+    "description": "This strategy discussion is to help teams think through their higher level purpose and goals",
+    "active_members": [],
+    "completed_members" : [],
+    "question_ids" : [6, 7, 8, 9, 10]
+  },
+  {
+    "survey_id": 2,
+    "program": "pilot",
+    "survey_name": "Team Structure",
+    "survey_category": "team_baseline",
+    "description": "This structure discussion is to help teams think about the way they are organized and their heirarchy",
+    "active_members": [],
+    "completed_members" : [],
+    "question_ids" : [11, 12, 13, 14, 15]
+  },
+  {
+    "survey_id": 3,
+    "program": "pilot",
+    "survey_name": "Team Processes",
+    "survey_category": "team_baseline",
+    "description": "This process discussion is to help teams identify and assess their end-to-end work flows",
+    "active_members": [],
+    "completed_members" : [],
+    "question_ids" : [16, 17, 18, 19, 20]
+  },
+  {
+    "survey_id": 4,
+    "program": "pilot",
+    "survey_name": "Team Rewards",
+    "survey_category": "team_baseline",
+    "description": "This rewards discussion is to help teams review how the members are rewarded",
+    "active_members": [],
+    "completed_members" : [],
+    "question_ids" : [21, 22, 23, 24, 25]
+  },
+  {
+    "survey_id": 5,
+    "program": "pilot",
+    "survey_name": "Team People",
+    "survey_category": "team_baseline",
+    "description": "This people discussion is to help teams understand the human side of their team members",
+    "active_members": [],
+    "completed_members" : [],
+    "question_ids" : [26, 27, 28, 29, 30]
+  },
+  {
+    "survey_id": 6,
+    "program": "entrepreneur",
+    "survey_name": "Entrepreneur: Expand Self",
+    "survey_category": "team_baseline",
+    "description": "These questions are designed to create openness and stimulate positive ideas",
+    "active_members": [],
+    "completed_members" : [],
+    "question_ids" : [31, 32, 33, 34, 35]
+  },
+  {
+    "survey_id": 7,
+    "program": "entrepreneur",
+    "survey_name": "Ideation",
+    "survey_category": "team_baseline",
+    "description": "These questions are meant to give the team energy and help them play around with ideas more",
+    "active_members": [],
+    "completed_members" : [],
+    "question_ids" : [36, 37, 38, 39, 40]
+  },
+  {
+    "survey_id": 8,
+    "program": "entrepreneur",
+    "survey_name": "Trying",
+    "survey_category": "team_baseline",
+    "description": "These questions help the team think about the cycle of trying, failing, re-trying, and creating momentum",
+    "active_members": [],
+    "completed_members" : [],
+    "question_ids" : [41, 42, 43, 44, 45]
+  },
+  {
+    "survey_id": 9,
+    "program": "entrepreneur",
+    "survey_name": "Synthesizing",
+    "survey_category": "team_baseline",
+    "description": "These questions focus on collaboration and working together toward new and potential goals",
+    "active_members": [],
+    "completed_members" : [],
+    "question_ids" : [46, 47, 48, 49, 50]
+  },
+  {
+    "survey_id": 10,
+    "program": "entrepreneur",
+    "survey_name": "Focus",
+    "survey_category": "team_baseline",
+    "description": "These questions are about creating a long-term vision of success and building systems around change",
+    "active_members": [],
+    "completed_members" : [],
+    "question_ids" : [51, 52, 53, 54, 55]
+  },
+  {
+    "survey_id": 11,
+    "program": "happiness",
+    "survey_name": "Happiness: Expand Self",
+    "survey_category": "team_baseline",
+    "description": "These questions are designed to create openness and stimulate positive ideas",
+    "active_members": [],
+    "completed_members" : [],
+    "question_ids" : [56, 57, 58, 59, 60]
+  },
+  {
+    "survey_id": 12,
+    "program": "happiness",
+    "survey_name": "Take Risk",
+    "survey_category": "team_baseline",
+    "description": "These questions are meant to explore the things that attack happiness, and what work is involved in achieving happiness",
+    "active_members": [],
+    "completed_members" : [],
+    "question_ids" : [61, 62, 63, 64, 65]
+  },
+  {
+    "survey_id": 13,
+    "program": "happiness",
+    "survey_name": "Accomplishments",
+    "survey_category": "team_baseline",
+    "description": "These questions discuss the connection between progress and happiness, and even how other people's progress can bring us joy",
+    "active_members": [],
+    "completed_members" : [],
+    "question_ids" : [66, 67, 68, 69, 70]
+  },
+  {
+    "survey_id": 14,
+    "program": "happiness",
+    "survey_name": "Positive Focus",
+    "survey_category": "team_baseline",
+    "description": "These questions explore the process of finding positivity in every day experiences",
+    "active_members": [],
+    "completed_members" : [],
+    "question_ids" : [71, 72, 73, 74, 75]
+  },
+  {
+    "survey_id": 15,
+    "program": "happiness",
+    "survey_name": "Just Happy",
+    "survey_category": "team_baseline",
+    "description": "These questions discuss making happiness a foundational part of the team experience",
+    "active_members": [],
+    "completed_members" : [],
+    "question_ids" : [76, 77, 78, 79, 80]
+  },      
+  {
+    "survey_id": 16,
+    "program": "harmony",
+    "survey_name": "Harmony: Expand Self",
+    "survey_category": "team_baseline",
+    "description": "These questions are designed to create openness and stimulate positive ideas",
+    "active_members": [],
+    "completed_members" : [],
+    "question_ids" : [81, 82, 83, 84, 85]
+  },
+  {
+    "survey_id": 17,
+    "program": "harmony",
+    "survey_name": "Create Neutrality",
+    "survey_category": "team_baseline",
+    "description": "These questions focus on safety and belonging as a team",
+    "active_members": [],
+    "completed_members" : [],
+    "question_ids" : [86, 87, 88, 89, 90]
+  },
+  {
+    "survey_id": 18,
+    "program": "harmony",
+    "survey_name": "Create Space",
+    "survey_category": "team_baseline",
+    "description": "These questions are about ways to step back, find clarity, and keep a consistent mindset",
+    "active_members": [],
+    "completed_members" : [],
+    "question_ids" : [91, 92, 93, 94, 95]
+  },
+  {
+    "survey_id": 19,
+    "program": "harmony",
+    "survey_name": "Focus on Good",
+    "survey_category": "team_baseline",
+    "description": "These questions discuss ways to direct the conversation into productive places",
+    "active_members": [],
+    "completed_members" : [],
+    "question_ids" : [96, 97, 98, 99, 100]
+  },
+  {
+    "survey_id": 20,
+    "program": "harmony",
+    "survey_name": "Self Talk",
+    "survey_category": "team_baseline",
+    "description": "These questions explore the interplay between productivity and harmonious attitudes in the team",
+    "active_members": [],
+    "completed_members" : [],
+    "question_ids" : [101, 102, 103, 104, 105]
+  },
+  {
+    "survey_id": 21,
+    "program": "execution",
+    "survey_name": "Execution: Expand Self",
+    "survey_category": "team_baseline",
+    "description": "These questions are designed to create openness and stimulate positive ideas",
+    "active_members": [],
+    "completed_members" : [],
+    "question_ids" : [106, 107, 108, 109, 110]
+  },
+  {
+    "survey_id": 22,
+    "program": "execution",
+    "survey_name": "Plan",
+    "survey_category": "team_baseline",
+    "description": "These questions discuss how our human emotions conflict with rigid team planning practices",
+    "active_members": [],
+    "completed_members" : [],
+    "question_ids" : [111, 112, 113, 114, 115]
+  },
+  {
+    "survey_id": 23,
+    "program": "execution",
+    "survey_name": "Act",
+    "survey_category": "team_baseline",
+    "description": "These questions discuss aspects of humanity that make it hard to move beyond planning",
+    "active_members": [],
+    "completed_members" : [],
+    "question_ids" : [116, 117, 118, 119, 120]
+  },
+  {
+    "survey_id": 24,
+    "program": "execution",
+    "survey_name": "Revise",
+    "survey_category": "team_baseline",
+    "description": "These questions explore the emotions that come to the surface during a tough time in the team",
+    "active_members": [],
+    "completed_members" : [],
+    "question_ids" : [121, 122, 123, 124, 125]
+  },
+  {
+    "survey_id": 25,
+    "program": "execution",
+    "survey_name": "Act More",
+    "survey_category": "team_baseline",
+    "description": "These questions explore how our perceptions deceive us, and how to get back to good progress",
+    "active_members": [],
+    "completed_members" : [],
+    "question_ids" : [126, 127, 128, 129, 130]
+  },
+  {
+    "survey_id": 26,
+    "program": "focus",
+    "survey_name": "Focus: Expand Self",
+    "survey_category": "team_baseline",
+    "description": "These questions are designed to create openness and stimulate positive ideas",
+    "active_members": [],
+    "completed_members" : [],
+    "question_ids" : [131, 132, 133, 134, 135]
+  },
+  {
+    "survey_id": 27,
+    "program": "focus",
+    "survey_name": "Priorities",
+    "survey_category": "team_baseline",
+    "description": "These questions expand on the relationship between emotional health and strong team priorities",
+    "active_members": [],
+    "completed_members" : [],
+    "question_ids" : [136, 137, 138, 139, 140]
+  },
+  {
+    "survey_id": 28,
+    "program": "focus",
+    "survey_name": "Accountabilities",
+    "survey_category": "team_baseline",
+    "description": "These questions explore how personal accountability cuts across all aspects of your life, work and personal",
+    "active_members": [],
+    "completed_members" : [],
+    "question_ids" : [141, 142, 143, 144, 145]
+  },
+  {
+    "survey_id": 29,
+    "program": "focus",
+    "survey_name": "Workflow",
+    "survey_category": "team_baseline",
+    "description": "These questions focus on harmonious work behavior, that promotes success",
+    "active_members": [],
+    "completed_members" : [],
+    "question_ids" : [146, 147, 148, 149, 150]
+  },
+  {
+    "survey_id": 30,
+    "program": "focus",
+    "survey_name": "Habits",
+    "survey_category": "team_baseline",
+    "description": "These questions combine happiness and focus discussions, to find the team's healthy operating range",
+    "active_members": [],
+    "completed_members" : [],
+    "question_ids" : [151, 152, 153, 154, 155]
+  },
+  {
+    "survey_id": 31,
+    "program": "safety",
+    "survey_name": "Safety: Expand Self",
+    "survey_category": "team_baseline",
+    "description": "These questions are designed to create openness and stimulate positive ideas",
+    "active_members": [],
+    "completed_members" : [],
+    "question_ids" : [156, 157, 158, 159, 160]
+  },  
+  {
+    "survey_id": 32,
+    "program": "safety",
+    "survey_name": "Clear Objectives",
+    "survey_category": "team_baseline",
+    "description": "These questions help the team explore how human emotions influence how we perceive objectives",
+    "active_members": [],
+    "completed_members" : [],
+    "question_ids" : [161, 162, 163, 164, 165]
+  }, 
+  {
+    "survey_id": 33,
+    "program": "safety",
+    "survey_name": "Safety Awareness",
+    "survey_category": "team_baseline",
+    "description": "These questions explores the interplay of team harmony and safe working practices",
+    "active_members": [],
+    "completed_members" : [],
+    "question_ids" : [166, 167, 168, 169, 170]
+  }, 
+  {
+    "survey_id": 34,
+    "program": "safety",
+    "survey_name": "Patience & Progress",
+    "survey_category": "team_baseline",
+    "description": "These questions discusses the difficult emotional swings related to hazardous work",
+    "active_members": [],
+    "completed_members" : [],
+    "question_ids" : [171, 172, 173, 174, 175]
+  }, 
+  {
+    "survey_id": 35,
+    "program": "safety",
+    "survey_name": "Gentle-Handed",
+    "survey_category": "team_baseline",
+    "description": "These questions explores what (if any) satisfaction is associated with the team's work practices",
+    "active_members": [],
+    "completed_members" : [],
+    "question_ids" : [176, 177, 178, 179, 180]
+  }        
+]

@@ -1,0 +1,302 @@
+[
+  {
+    "result_id": 1,
+    "result_level": "Tentative",
+    "program_progress" : 0.25,
+    "result_high" : "",
+    "result_low" : "",
+    "result_scenario": "Team Health",
+    "result_name": "Ice Breaker",
+    "description": "How do you feel about Halloween this year?"
+  },
+  {
+    "result_id": 2,
+    "result_level": "Intermediate",
+    "program_progress" : 0.50,
+    "result_high" : "",
+    "result_low" : "",
+    "result_scenario": "Relationship to Management",
+    "result_name": "Ice Breaker",
+    "description": "What are more important - sports or politics, and why?"
+  },
+  {
+    "result_id": 3,
+    "result_level": "Advanced",
+    "program_progress" : 0.75,
+    "result_high" : "",
+    "result_low" : "",
+    "result_scenario": "Career Fulfillment",
+    "result_name": "Ice Breaker",
+    "description": "Has anything great happened at work lately?"
+  },
+  {
+    "result_id": 4,
+    "result_level": "Conclusive",
+    "program_progress" : 1.0,
+    "result_high" : "",
+    "result_low" : "",
+    "result_scenario": "Empowerment",
+    "result_name": "Ice Breaker",
+    "description": "Are you ready for 2018 to end? How are you feeling about 2019?"
+  },
+  {
+    "result_id": 5,
+    "result_level": "Tentative",
+    "program_progress" : 0.25,
+    "result_high" : "",
+    "result_low" : "",
+    "result_scenario": "Winning",
+    "result_name": "Ice Breaker",
+    "description": "How would you feel if you won the lottery?"
+  },
+  {
+    "result_id": 6,
+    "result_level": "Tentative",
+    "program_progress" : 0.25,
+    "result_high" : "",
+    "result_low" : "",
+    "result_scenario": "Team Health",
+    "result_name": "Team Strategy",
+    "description": "I feel comfortable explaining my team's goals and metrics"
+  },
+  {
+    "result_id": 7,
+    "result_level": "Tentative",
+    "program_progress" : 0.25,
+    "result_high" : "",
+    "result_low" : "",
+    "result_scenario": "Relationship to Management",
+    "result_name": "Team Strategy",
+    "description": "My leader links our discussions back to the team strategy"
+  },
+  {
+    "result_id": 8,
+    "result_level": "Tentative",
+    "program_progress" : 0.25,
+    "result_high" : "",
+    "result_low" : "",
+    "result_scenario": "Career Fulfillment",
+    "result_name": "Team Strategy",
+    "description": "I ask questions about our team strategy and goals, when I want to learn more"
+  },
+  {
+    "result_id": 9,
+    "result_level": "Tentative",
+    "program_progress" : 0.25,
+    "result_high" : "",
+    "result_low" : "",
+    "result_scenario": "Empowerment",
+    "result_name": "Team Strategy",
+    "description": "I feel that my work is directly linked to the success of my team"
+  },
+  {
+    "result_id": 10,
+    "result_level": "Tentative",
+    "program_progress" : 0.25,
+    "result_high" : "",
+    "result_low" : "",
+    "result_scenario": "Winning",
+    "result_name": "Team Strategy",
+    "description": "Our strategy makes sense and seems to work well"
+  },
+  {
+    "result_id": 11,
+    "result_level": "Tentative",
+    "program_progress" : 0.25,
+    "result_high" : "",
+    "result_low" : "",
+    "result_scenario": "Team Health",
+    "result_name": "Team Structure",
+    "description": "Our team members share their frustrations with eachother and get support from within the team"
+  },
+  {
+    "result_id": 12,
+    "result_level": "Tentative",
+    "program_progress" : 0.25,
+    "result_high" : "",
+    "result_low" : "",
+    "result_scenario": "Relationship to Management",
+    "result_name": "Team Structure",
+    "description": "Our leader(s) make the necessary role changes to keep our team focused and motivated"
+  },
+  {
+    "result_id": 13,
+    "result_level": "Tentative",
+    "program_progress" : 0.25,
+    "result_high" : "",
+    "result_low" : "",
+    "result_scenario": "Career Fulfillment",
+    "result_name": "Team Structure",
+    "description": "I think my title is right, given my skills/goals/contributions"
+  },
+  {
+    "result_id": 14,
+    "result_level": "Tentative",
+    "program_progress" : 0.25,
+    "result_high" : "",
+    "result_low" : "",
+    "result_scenario": "Empowerment",
+    "result_name": "Team Structure",
+    "description": "Our team leader is positive and keeps the work interesting"
+  },
+  {
+    "result_id": 15,
+    "result_level": "Tentative",
+    "program_progress" : 0.25,
+    "result_high" : "",
+    "result_low" : "",
+    "result_scenario": "Winning",
+    "result_name": "Team Structure",
+    "description": "Our team makes decisions in a collaborative way, that take everyones views into consideration"
+  },
+  {
+    "result_id": 16,
+    "result_level": "Tentative",
+    "program_progress" : 0.25,
+    "result_high" : "",
+    "result_low" : "",
+    "result_scenario": "Team Health",
+    "result_name": "Team Processes",
+    "description": "My team understands how we are supposed to work together and we focus on common goals"
+  },
+  {
+    "result_id": 17,
+    "result_level": "Tentative",
+    "program_progress" : 0.25,
+    "result_high" : "",
+    "result_low" : "",
+    "result_scenario": "Relationship to Management",
+    "result_name": "Team Processes",
+    "description": "I am able to have tough conversations with my leader, without fearing for my job"
+  },
+  {
+    "result_id": 18,
+    "result_level": "Tentative",
+    "program_progress" : 0.25,
+    "result_high" : "",
+    "result_low" : "",
+    "result_scenario": "Career Fulfillment",
+    "result_name": "Team Processes",
+    "description": "My job is a good mix of learning and doing - I feel like I'm growing as a person"
+  },
+  {
+    "result_id": 19,
+    "result_level": "Tentative",
+    "program_progress" : 0.25,
+    "result_high" : "",
+    "result_low" : "",
+    "result_scenario": "Empowerment",
+    "result_name": "Team Processes",
+    "description": "As I get better at my job, I take pride in my work and can see my career progression"
+  },
+  {
+    "result_id": 20,
+    "result_level": "Tentative",
+    "program_progress" : 0.25,
+    "result_high" : "",
+    "result_low" : "",
+    "result_scenario": "Winning",
+    "result_name": "Team Processes",
+    "description": "My team knows when we are succeeding and we celebrate it"
+  },
+  {
+    "result_id": 21,
+    "result_level": "Tentative",
+    "program_progress" : 0.25,
+    "result_high" : "",
+    "result_low" : "",
+    "result_scenario": "Team Health",
+    "result_name": "Team Rewards",
+    "description": "This job is rewarding in more ways than just financial"
+  },
+  {
+    "result_id": 22,
+    "result_level": "Tentative",
+    "program_progress" : 0.25,
+    "result_high" : "",
+    "result_low" : "",
+    "result_scenario": "Relationship to Management",
+    "result_name": "Team Rewards",
+    "description": "My leader makes me feel like I'm a valuable member of the team"
+  },
+  {
+    "result_id": 23,
+    "result_level": "Tentative",
+    "program_progress" : 0.25,
+    "result_high" : "",
+    "result_low" : "",
+    "result_scenario": "Career Fulfillment",
+    "result_name": "Team Rewards",
+    "description": "I have the sense that my work makes a difference and my career matters"
+  },
+  {
+    "result_id": 24,
+    "result_level": "Tentative",
+    "program_progress" : 0.25,
+    "result_high" : "",
+    "result_low" : "",
+    "result_scenario": "Empowerment",
+    "result_name": "Team Rewards",
+    "description": "I come to work in part because I feel that I have purpose here"
+  },
+  {
+    "result_id": 25,
+    "result_level": "Tentative",
+    "program_progress" : 0.25,
+    "result_high" : "",
+    "result_low" : "",
+    "result_scenario": "Winning",
+    "result_name": "Team Rewards",
+    "description": "Hard work and big wins are recognized in my team"
+  },
+  {
+    "result_id": 26,
+    "result_level": "Tentative",
+    "program_progress" : 0.25,
+    "result_high" : "",
+    "result_low" : "",
+    "result_scenario": "Team Health",
+    "result_name": "Team People",
+    "description": "Some people in our team seem to thrive in this environment"
+  },
+  {
+    "result_id": 27,
+    "result_level": "Tentative",
+    "program_progress" : 0.25,
+    "result_high" : "",
+    "result_low" : "",
+    "result_scenario": "Relationship to Management",
+    "result_name": "Team People",
+    "description": "I see some traits in my leader that I want to develop in myself"
+  },
+  {
+    "result_id": 28,
+    "result_level": "Tentative",
+    "program_progress" : 0.25,
+    "result_high" : "",
+    "result_low" : "",
+    "result_scenario": "Career Fulfillment",
+    "result_name": "Team People",
+    "description": "Some people in my team feel fulfilled doing this type of work"
+  },
+  {
+    "result_id": 29,
+    "result_level": "Tentative",
+    "program_progress" : 0.25,
+    "result_high" : "",
+    "result_low" : "",
+    "result_scenario": "Empowerment",
+    "result_name": "Team People",
+    "description": "I feel more comfortable to be myself, the longer I'm in this job"
+  },
+  {
+    "result_id": 30,
+    "result_level": "Tentative",
+    "program_progress" : 0.25,
+    "result_high" : "",
+    "result_low" : "",
+    "result_scenario": "Winning",
+    "result_name": "Team People",
+    "description": "Over all, I see signs of progress in our team, our members, and our organization"
+  }
+]
