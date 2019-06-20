@@ -5,9 +5,9 @@ var router = express.Router();
  * @swagger
  * /users:
  *    get:
+ *      security:
+ *        - bearerAuth: []
  *      description: This gets users
- *      produces:
- *        - application/json
  *      responses:
  *        200:
  *          description: Users got

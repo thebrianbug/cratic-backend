@@ -7,14 +7,13 @@ const Lead = require("../models/lead.js");
  * /leads/{email}:
  *    post:
  *      description: This saves the contact info for a lead
- *      produces:
- *        - application/json
  *      parameters:
- *        - name: email
- *          in: path
+ *        - in: path
+ *          name: email
  *          description: Email to register.
+ *          schema:
+ *            type: string
  *          required: true
- *          type: string
  *      responses:
  *        200:
  *          description: Lead saved
