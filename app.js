@@ -28,7 +28,7 @@ app.use(express.static(path.join(__dirname, "public")));
 app.use("/", indexRouter);
 app.use("/docs", swaggerUi.serve, swaggerUi.setup(swaggerSpec));
 app.use("/users", jwtCheck, usersRouter);
-app.use("/leads", jwtCheck, leadsRouter);
+app.use("/leads", leadsRouter);
 
 // catch 404 and forward to error handler
 app.use(function(req, res, next) {
